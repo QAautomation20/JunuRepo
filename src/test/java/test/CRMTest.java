@@ -9,8 +9,7 @@ import util.CRMBrowserFactory;
 
 public class CRMTest extends CRMBasePage {
 
-	WebDriver driver;
-	
+	WebDriver driver;	
 
 	@Test(priority = 1)
 	public void createQuickDraft() throws InterruptedException {

@@ -8,8 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import page.CRMBasePage;
 
 public class CRMBrowserFactory extends CRMBasePage {
-		static WebDriver driver;
-		
+		static WebDriver driver;		
 		
 		public static WebDriver startBrowser() {
 			System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
